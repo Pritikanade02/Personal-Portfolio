@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/f0823c0fa3.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Welcome to my Portfolio</title>
+</head>
+<body>
+    <div id="main">
+      <!-- section1 - header -->
+        <header>
+            <nav class="navbar">
+              <div class="nav-bar">
+                <img src="logo_pk.png" alt="logo" style="height: 110px; width: 110px; background-color:black;">
+              </div>
+              <ul class="nav-list">
+                <li><a href="#mywork">Work</a></li>
+                <li><a href="#aboutme">About</a></li>
+                <li><a href="#My_skills">Skills</a></li>
+                <li><a href="#contactus">Contact</a></li>
+              </ul>
+            </nav>
+            <div id="part1">
+              <div id="name">
+                <h2>Hello i'm!</h2>
+                <h1>priti kanade</h1>
+                <h3>Web developer</h3>
+                <button id="cv_btn"><a href="./Priti_Kanade.pdf" download="Cv.pdf">Download CV</a></button>
+              </div>
+            </div>
+          </header>
+          <div id="aboutme">
+            <div id="aboutme_sec">
+              <h1>about me</h1>
+              <p>As a passionate and dedicated web developer, I bring a blend of creativity and technical expertise to every project I undertake. With a strong foundation in front-end technologies like HTML, CSS, and JavaScript, and proficient back-end skills in Java, C++, C, PHP, and MySQL, I strive to create seamless and engaging web experiences. My journey in web development is fueled by a commitment to continuous learning and staying updated with the latest industry trends. Whether I'm crafting responsive designs or developing robust server-side logic, my goal is to deliver user-friendly and efficient solutions that meet client needs and exceed expectations. Outside of coding, I enjoy exploring new technologies, contributing to open-source projects, and collaborating with like-minded professionals to drive innovation in the web development field.</p>
+            </div>
+          </div>
+          <div id="mywork">
+            <div id="work1">
+              <img src="work1.png" alt="" style="height: 150px; width: 250px;">
+              <p style="color: black; font-weight: bold; padding: 5px;">Indoor Plant Shop Website :</p>
+              <p style="color: black; padding: 5px;">Our indoor plant shop website, built with HTML, CSS, JavaScript, PHP, and MySQL, provides a smooth user experience through its modern, responsive design. The intuitive interface ensures easy navigation and quick load times on desktop.The backend,powered by PHP and MySQL,ensures secure and efficient transaction processing.</p>
+            </div>
+            <div id="work1">
+              <img src="work2.png" alt="" style="height: 150px; width: 250px;">
+              <p style="color: black; font-weight: bold; padding: 10px;">Calculator :</p>
+              <p style="color: black; padding: 10px;">Our calculator website, built using HTML, CSS, and JavaScript, offers a seamless user experience with a clean, responsive design. The intuitive interface ensures easy navigation and quick load times, making complex calculations straightforward and accessible.</p>
+            </div>
+            <div id="work1">
+              <img src="work3.png" alt="" style="height: 150px; width: 250px;">
+              <p style="color: black; font-weight: bold; padding: 10px;">Landing Page :</p>
+              <p style="color: black; padding: 10px;">Our landing page website, crafted with HTML and CSS, features a clean, responsive design that delivers a smooth user experience. The minimalist layout ensures fast load times and easy navigation on both desktop, effectively capturing visitors' attention and driving engagement.</p>
+            </div>
+          </div>
+          <div id="My_skills">
+            <div id="skill_sec">
+              <h1>My skills</h1>
+              <p>My skills encompass a wide range of front-end and back-end technologies that enable me to build comprehensive and dynamic web applications. On the front-end, I excel in HTML, CSS, and JavaScript, crafting responsive and visually appealing user interfaces. My proficiency in these technologies allows me to create intuitive and engaging user experiences. On the back-end, I have a strong command of Java, C++, C, PHP, and MySQL, which empowers me to develop robust server-side logic, manage databases efficiently, and ensure seamless data integration. This diverse skill set not only enhances my ability to tackle complex web development challenges but also enables me to deliver high-quality, full-stack solutions that meet the diverse needs of clients and projects.</p>
+            </div>
+          </div>
+          <div id="contactus">
+            <div id="con_name">
+              <h1>Contact Me!</h1>
+            </div>
+            <div class="contact_form">
+              <form action="#">
+                <label for="name" style="padding-left: 10px; font-size: large;">Name :</label>
+                <input type="text" placeholder="Enter Your name" style="margin-top: 10px; border-color: white; color: white;"><br>
+                <label for="email" style="padding-left: 10px; font-size: large;">Email :</label>
+                <input type="email" placeholder="Enter Your Email" style="margin-top: 10px; border-color: white; color: white;"><br>
+                <label for="message" style="padding-left: 10px; font-size: large;">Message :</label><br>
+                <textarea name="message" id="msg_area" style="margin-left: 10px; width: 700px; height: 100px; margin-top: 10px; background-color: transparent; border-color: white; color: white;">Type here something!</textarea>
+                <input type="submit" class="submit-btn">
+              </form>
+            </div>
+            <div id="con_info">
+              <p>Phone - 8847706393<br>Email - preetikanade641@gmail.com<br>follow me on -</p>
+              <div class="social_icons">
+                <i class="fa-brands fa-instagram fa-xl"></i>
+                <i class="fa-brands fa-twitter fa-xl"></i>
+                <i class="fa-brands fa-square-facebook fa-xl"></i>
+                <i class="fa-brands fa-linkedin fa-xl"></i>
+              </div>
+            </div>
+          </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="index.js"></script>
+</body>
+</html>
